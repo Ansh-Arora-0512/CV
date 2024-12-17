@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+html, body {
+    aspect-ratio: 210/297;
+    font-family: Calibri, Lato;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+div.title {
+    background-color: lightgray;
+    padding: 45px;
+}
+
+div.education {
+    padding-top: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+div.photo {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+div.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+div.contacts {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+div.skills, div.interests, div.projects {
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+div.skill + div.skill, div.activity + div.activity, div.project + div.project {
+    margin-top: 25px;
+}
+
+div.languages {
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+div.qualifications, div.activities {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+div.qualification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+span.qualification, span.project {
+    color: #163853;
+    text-align: left;
+    flex: 1;
+}
+
+span.grades {
+    text-align: center;
+}
+
+span.duration {
+    color: darkgray;
+    text-align: right;
+    flex: 1;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 35pt;
+    color: #163853
+}
+
+h3 {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 12pt;
+}
+
+a {
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    color: lightgray;
+    text-decoration: none;
+}
+
+a img {
+    vertical-align: middle;
+    width: 12pt;
+    height: 12pt;
+    margin-right: 5pt;
+}
+
+ul {
+    list-style: inside;
+    padding-left: 0;
+}
+
+hr {
+    width: 40%;
+}
+
+div.title p {
+    font-size: 14pt;
+}
+
+span.skill{
+    font-size: 16pt;
+    color: lightgray;
+}
+
+span.school {
+    font-size: 16pt;
+}
+
+span.activity, span.project {
+    font-size: 16pt;
+    color: #163853
+}
+
+span.language {
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 14pt;
+    background-color: gray;
+    padding: 6px;
+    border-radius: 6px;
+    line-height: 1;
+}
+
+span.language img {
+    width: 14pt;
+    height: 14pt;
+    vertical-align: middle;
+}
+
+span.language span {
+    margin-left: 6px;
+}
+
+.left {
+    background-color: #163853;
+    color: white;
+    flex: 31%;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+}
+
+.right {
+    color: black;
+    flex: 69%;
+    box-sizing: border-box;
+    right: 0;
+    top: 0;
+}
